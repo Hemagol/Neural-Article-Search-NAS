@@ -1,0 +1,8 @@
+Requirements
+Flask
+Flask-CORS
+pandas
+spacy (en_core_web_sm model)
+sentence-transformers
+keras
+tensorflow
