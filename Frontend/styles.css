@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    box-sizing: border-box; /* Include padding and border in width/height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif; /* Font style for the page */
+    background-color: #f5f5f5; /* Light grey background */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+    padding-top: 20vh; /* Add padding to push content down */
+}
+
+/* Search container styles */
+.search-container {
+    text-align: center; /* Center text */
+    padding: 20px; /* Space around the search container */
+}
+
+/* Logo styling */
+.logo h1 {
+    font-size: 60px; /* Large font size for logo */
+    color: #4285f4; /* Google blue color */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
+/* Search box styles */
+.search-box {
+    display: flex; /* Flexbox for horizontal alignment */
+    justify-content: center; /* Center align items */
+    align-items: center; /* Center vertically */
+}
+
+#searchQuery {
+    width: 60%; /* Width of the search input */
+    padding: 20px; /* Padding inside the input */
+    font-size: 22px; /* Font size for input text */
+    border-radius: 32px; /* Rounded corners */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    margin-right: 10px; /* Space between input and button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button {
+    padding: 20px 30px; /* Padding inside the button */
+    font-size: 22px; /* Font size for button text */
+    background-color: #1a73e8; /* Button color */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 32px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+button:hover {
+    background-color: #0f5cbf; /* Darker blue on hover */
+}
+
+/* Results container */
+#results {
+    width: 80%; /* 80% width for results container */
+    margin-top: 20px; /* Margin above results */
+    background-color: white; /* White background for results */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    padding: 20px; /* Padding for results container */
+    max-width: 1200px; /* Maximum width for large screens */
+    display: none; /* Hide initially, show only when results are available */
+}
+
+/* Individual result item styles */
+.result-item {
+    padding: 20px; /* Padding for each result item */
+    border-bottom: 1px solid #ddd; /* Bottom border for separation */
+}
+
+.result-item:last-child {
+    border-bottom: none; /* Remove border from last item */
+}
+
+.result-item h3 {
+    margin: 0; /* Remove default margin */
+    font-size: 22px; /* Font size for result title */
+    color: #1a0dab; /* Link color */
+}
+
+.result-item a {
+    color: #1a0dab; /* Link color */
+    text-decoration: none; /* No underline by default */
+    font-size: 16px; /* Font size for link */
+}
+
+.result-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.result-item p {
+    font-size: 14px; /* Font size for description */
+    color: #545454; /* Dark grey for description */
+}
