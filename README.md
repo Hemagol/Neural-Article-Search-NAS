@@ -1,5 +1,20 @@
 # Neural Article Search (NAS)
 This repository contains the source files and documentation for a deep learning project focused on searching articles based on user queries. The project leverages a dataset containing search queries, articles, and categories, applying NLP techniques and machine learning to predict the most relevant article category for a given query.
+
+# Dataset Information
+
+The dataset used in this project was sourced from Kaggle. It includes search queries, article titles, snippets, and corresponding categories, used to train and test the Neural Article Search (NAS) model.
+
+## Dataset Provider
+
+- **Kaggle**: [Link to Dataset](https://www.kaggle.com/datasets/kishan305/whats-trending-google-india)
+  
+You can download the dataset directly from Kaggle using the link provided above. Ensure you have access to the dataset before running the project.
+
+---
+
+Please make sure to follow Kaggle’s rules and regulations when using this dataset, and give credit to the original dataset provider when sharing or deploying the project.
+
 ## Feature Extraction
 ### Sentence Embeddings
 The project uses the Sentence-BERT model to generate embeddings for both the search queries and article titles. Sentence-BERT converts text into high-dimensional vectors, capturing the semantic meaning of the input text, which is critical for accurate search functionality.
